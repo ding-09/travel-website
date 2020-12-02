@@ -45,7 +45,7 @@ a {
 
 button {
   padding: 1.5rem 4.5rem;
-  background: #4c6e97;
+  background: #184d84;
   border: none;
   color: white;
   font-size: 1.8rem;
@@ -54,12 +54,12 @@ button {
 }
 
 button:hover {
-  background: #1f2f3f;
+  background: #0e2f52;
 }
 
 /* nav section with hero */
 .main-head {
-  background: #131c27;
+  background: #0f345c;
   color: white;
 }
 
@@ -162,7 +162,7 @@ nav ul {
 
 /* BENEFITS SECTION */
 .benefits-head {
-  background: #343c44;
+  background: #164577;
   padding: 3rem;
   min-height: 30vh;
   display: flex;
@@ -208,7 +208,81 @@ nav ul {
 }
 
 .card-icon {
-  background: #1f2f3f;
+  background: #184d84;
+}
+
+#contact {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url(./img/contact-mountain.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-wrapper {
+  background: rgba(19, 28, 39, 0.7);
+  width: 60%;
+  color: white;
+  border-radius: 2rem;
+}
+
+.form-head {
+  text-align: center;
+  padding: 4rem;
+}
+
+.name-form,
+.email-form {
+  padding: 3rem;
+  text-align: center;
+}
+
+.form-wrapper label {
+  margin: 0rem 3rem;
+}
+
+.form-wrapper button {
+  width: 100%;
+  padding: 2rem;
+  margin-top: 8rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.form-wrapper input {
+  padding: 1rem 3rem;
+}
+
+footer {
+  color: white;
+  background: #0f345c;
+}
+
+.footer-wrapper {
+  display: flex;
+  padding: 2rem; 
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  min-height: 10vh;
+  flex-wrap: wrap;
+}
+
+footer h5 {
+  flex: 1 1 40rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  flex: 1 1 40rem;
+  align-items: center;
+  justify-content: space-around;
 }
 
 @keyframes cloudAnimation {
@@ -246,5 +320,14 @@ nav ul {
   .locations-head h3 {
     background: rgba(19, 28, 39, 0.9);
     -webkit-text-fill-color: white;
+  }
+  footer {
+    text-align: center;
+  }
+  footer h5 {
+    padding-bottom: 2rem;
+  }
+  .form-wrapper {
+    width: 100%;
   }
 }
