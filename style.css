@@ -59,17 +59,17 @@ button {
 }
 
 nav {
-  min-height: 10vh;
+  min-height: 8vh;
   padding: 2rem;
   display: flex;
-  width: 90%;
+  width: 95%;
   margin: auto;
   align-items: center;
   flex-wrap: wrap;
 }
 
 #logo {
-  flex: 3 1 40rem;
+  flex: 4 1 40rem;
   font-family: 'Pattaya', sans-serif;
   font-weight: 400;
 }
@@ -100,7 +100,7 @@ nav ul {
   padding: 5rem;
 }
 
-@media screen and (max-width: 821px) {
+@media screen and (max-width: 778px) {
   nav {
     text-align: center;
   }
